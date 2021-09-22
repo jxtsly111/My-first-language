@@ -1,0 +1,30 @@
+.skewed-header-section{
+    height: 400px; 
+    /* width: 100%;
+    padding: 100px; */
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.skewed-header-section > .skewed-bg > img{
+    height: 6100px;
+    
+
+}
+.second-starter{
+    height: 400px;
+    margin-top: 50px;
+    width: 100vw;
+}
+.second-starter > .second-bg > img{
+    height: 100%;
+    width: 400px;
+}
+
+
+
+
+ 
+

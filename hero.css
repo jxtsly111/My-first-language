@@ -1,0 +1,139 @@
+.hero-section{
+    background-image: url('./images/backgrounds/fries-hero-bg.jpg');
+    height: 300px;
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section > .top-heading{
+    background-color: #11122b;
+    color: white;
+    width: 350px;
+    padding: 20px 2px;
+    border-radius: 3px;
+}
+.hero-section > .bottom-heading{
+    background-color: #cea135;
+    color: black;
+    margin: 15px;
+    width: 100px;
+    padding: 1px 20px;
+    border-radius: 3px;
+}
+.heroine-section {
+    background-image: url('./images/backgrounds/fries-multiply-bg.jpg');
+     /* background-attachment: fixed; 
+     background-position: center;  */
+    height: 400px;
+    background-color: #cea135;
+    color: #11122b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.heroine-section > .column-wrapper {
+    display: flex;
+     width: 1000px;
+    justify-content: space-between;
+/* 
+    align-items: center;
+    padding: 100px;
+    margin: 30px;
+   
+    color: #11122b;
+    */
+    
+}
+.heroine-section > .column-wrapper > .column {
+    text-align: center;
+    border-bottom: 5px #11122b transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 42px;
+    transition: 1s;
+
+}
+.heroine-section > .column-wrapper > .column:hover{
+    border-bottom: 5px solid;  
+}
+.heroine-section > .column-wrapper > .column :nth-child(1){
+ font-size: 3em;
+}
+.heroine-section > .column-wrapper > .column :nth-child(2){
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+.heroine-section > .column-wrapper > .column :nth-child(2):hover{
+    letter-spacing: 2px;
+}
+.footer-section{
+   height: 400px;
+   background-color: #11122b;
+   color: #cbcbcb;
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+   flex-direction: column;
+   height: 400px;
+   margin-top: -4px;
+
+}
+.footer-section > .foot-logo > img{
+    width: 180px;
+    height: 100%;
+    opacity: 0.5;
+
+}
+.footer-section > .foot-phone-wrapper > span{
+    margin-left:10px ;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+
+}
+.footer-section > .foot-phone-wrapper > .foot-time{
+    font-size: 0.8em;
+    color: #cea135;
+    text-transform: uppercase;
+
+}
+.footer-section > .link-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+.footer-section > .foot-social-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+.footer-section > .foot-social-icons > a{
+    color: #cbcbcb;
+    font-size: 1.5em;
+    transition: 0.5s;
+
+}
+.footer-section > .foot-social-icons > a:hover
+{
+    color: #cea135;
+}
+
+
+      
+  
+
+ 
+
+ 
+

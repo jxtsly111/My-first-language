@@ -1,0 +1,46 @@
+.contact-wrapper{
+    
+    
+}
+
+.contact-header > img{
+   max-width: 100%;
+    height: 300px;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+}
+.contact-middle{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+}
+.contact-middle > .contact-left > .contact-middle-image > img{
+    width: 200px;
+    height: 100%;
+    margin-bottom: 20px;
+    
+}
+.contact-middle > .contact-left{
+    margin-left: 400px;
+}
+.contact-middle > .contact-left > .contact-address{
+    margin-bottom: 20px;
+    
+}
+.contact-middle > .contact-left > .contact-number{
+    margin-bottom: 20px;
+}
+
+.form input{
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    
+}
+
+
+
+    
+
+
+
